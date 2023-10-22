@@ -1,0 +1,11 @@
+body{
+    background-color:gainsboro;
+}
+#intro{
+    align-content: center;
+    align-items: center;
+    color:goldenrod;
+}
+#name{
+    color:midnightblue;
+}
