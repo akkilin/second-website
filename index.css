@@ -16,4 +16,7 @@ body{
     background-color: white;
     color: black;
     margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
 }
