@@ -1,11 +1,19 @@
 body{
-    background-color:gainsboro;
+    background-color:whitesmoke;
 }
 #intro{
     align-content: center;
     align-items: center;
     color:goldenrod;
+    background-color: white;
+    margin: 100px;
+    padding: 10px;
 }
 #name{
     color:midnightblue;
+}
+#navigation{
+    background-color: white;
+    color: black;
+    margin: 10px;
 }
