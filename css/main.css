@@ -4,3 +4,7 @@ body{
 header{
     background-color: white;
 }
+footer{
+    background-color: grey;
+    color: white;
+}
