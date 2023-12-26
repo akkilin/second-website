@@ -1,31 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
     background-color:#F2D7B8;
+    font-family: 'Open Sans', sans-serif;
 }
-header{
+.header-main{
     background-color: #C19970;
     width: 100%;
-    height: 20px;
-    text-align: center;
+    height: fit-content;
+    align-items: center;
+    padding: 10px;
+    color: beige;
+    
 }
-footer{
-    background-color: #BAA17D;
-    color: #41284F;
+.navi{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
-.main_text{
-    color: #672818;
-    font: 20px;
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    
+}
+.nav__links li a:hover{
+    color: aliceblue;
 }
 #intro{
-    color: #41284F;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-    font-weight: 50px;
-    text-align: center;
+
 }
-#subintro{
-    color: #877392;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 20px;
-    text-align: center;
+
+/* flexs */
+.bod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 1em;
+
 }
